@@ -19,8 +19,8 @@ public class TesLogistik {
         kontainerAlfa.kurangiMuatan(500);
         System.out.println("Berat muatan saat ini: " + kontainerAlfa.getBeratMuatanSaatIni() + " kg");
 
-        System.out.println("\nMembongkar muat/menurunkan barang seberat 1.500 kg...");
-        kontainerAlfa.kurangiMuatan(1500);
+        System.out.println("\nMembongkar muat/menurunkan barang seberat 2.000 kg...");
+        kontainerAlfa.kurangiMuatan(2000);
         System.out.println("Berat muatan saat ini: " + kontainerAlfa.getBeratMuatanSaatIni() + " kg");
     }
 }

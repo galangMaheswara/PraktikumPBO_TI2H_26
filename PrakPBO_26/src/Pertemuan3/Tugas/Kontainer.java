@@ -40,6 +40,8 @@ public class Kontainer {
     public  void kurangiMuatan(double berat){
         if (beratMuatanSaatIni - berat < 0) {
             System.out.println("Berat muatan yang diturunkan melebihi muatan saat ini");
+        }if (berat > beratMuatanSaatIni*50/100) {
+            System.out.println("Maaf, demi keselamatan, pembongkaran muatan satu kali jalan tidak boleh melebihi 50% dari muatan saat in");
         } else{
             beratMuatanSaatIni -= berat;
         }

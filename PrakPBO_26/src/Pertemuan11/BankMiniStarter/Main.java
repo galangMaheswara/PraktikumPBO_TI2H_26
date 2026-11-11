@@ -32,6 +32,6 @@ public class Main {
 
         bank.printHistory("A003");
 
-        
+        System.out.println("Total Assets Bank: " + bank.totalAssets());
     }
 }
